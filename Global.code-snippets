@@ -1,0 +1,14 @@
+{
+  "StyledComponent": {
+      "prefix": "1sc",
+      "scope": "javascript",
+      "body": "export const MyComponent = styled.div``",
+      "description": "Styled component variable declaration"
+  },
+  "CssMediaQuery": {
+    "prefix": "1m",
+    "scope": "javascript, css",
+    "body": ["@media(min-width: ${Breakpoints.main}) {", "", "}"],
+    "description": "Styled component variable declaration"
+  }
+}
