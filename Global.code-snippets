@@ -8,7 +8,22 @@
   "CssMediaQuery": {
     "prefix": "1m",
     "scope": "javascript, css",
-    "body": ["@media(min-width: ${Breakpoints.main}) {", "", "}"],
+    "body": [
+      "@media(min-width: ${Breakpoints.main}) {",
+      "",
+      "}"
+    ],
     "description": "Styled component variable declaration"
+  },
+  "ReactFunctionComponent": {
+    "prefix": "1rfc",
+    "scope": "javascript",
+    "body": [
+      "import React from 'react'",
+      "",
+      "export default props =>",
+      "  <div>New Function Component</div>"
+    ],
+    "description": "Create a React functional component"
   }
 }
