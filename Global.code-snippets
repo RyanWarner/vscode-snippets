@@ -13,7 +13,7 @@
       "",
       "}"
     ],
-    "description": "Styled component variable declaration"
+    "description": "Styled Components Media Query"
   },
   "ReactFunctionComponent": {
     "prefix": "1rfc",
